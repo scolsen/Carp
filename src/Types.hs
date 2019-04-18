@@ -180,7 +180,7 @@ mangle = sreplace . creplace
                                                ,('6', "_SIX_")
                                                ,('7', "_SEVEN_")
                                                ,('8', "_EIGHT_")
-                                               ,('9', "_NINE_"))])
+                                               ,('9', "_NINE_")])
         sreplace = replaceStrings (Map.fromList [("auto", "_AUTO_")
                                                  ,("break", "_BREAK_")
                                                  ,("case", "_CASE_")
