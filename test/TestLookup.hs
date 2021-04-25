@@ -1,6 +1,6 @@
 module TestLookup where
 
-import qualified Lookup as Lookup
+--import qualified Lookup as Lookup
 import qualified Map
 import Obj
 import qualified Set

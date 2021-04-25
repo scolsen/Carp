@@ -1,7 +1,5 @@
 (defmodule Filepath
-
   (use Array)
-
   (doc dir-from-path "removes the file name part of a path to a file, similar to the `basename` utility in Shell scripting.")
   (defn dir-from-path [path]
     (let [segments (split-by path &[\/])

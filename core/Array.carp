@@ -170,7 +170,7 @@ If the array is empty, returns `Nothing`")
 
   (doc prefix "gets a prefix array to `end-index`.")
   (defn prefix [xs end-index]
-    (slice xs 0 end-index))
+    (Array.slice xs 0 end-index))
 
   (doc suffix "gets a suffix array from `start-index`.")
   (defn suffix [xs start-index]

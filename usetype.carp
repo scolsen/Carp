@@ -1,0 +1,3 @@
+(defmodule Mod
+ (deftype Ok [a Int])
+ (deftype NotOk [a Ok]))

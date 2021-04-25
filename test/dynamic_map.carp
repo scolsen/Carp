@@ -1,5 +1,5 @@
 (load "Test.carp")
-(use Test)
+(use-all Test)
 
 (deftest test
   (assert-dynamic-equal test
